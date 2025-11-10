@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz do Futebol</title>
+    <link rel="stylesheet" href="style.css">
+</head>    
+
+<body>
+    
+    <header>
+        <h1>O que você sabe sobre Futebol?</h1>
+        <h3>Desafie-se a acertar todas as perguntas!</h3>
+    </header>
+
+    <main>
+       
+        <!-- Pergunta 1 -->
+        <section>
+            <h2>Entre as seguintes seleções, qual é a única que nunca venceu uma Copa do Mundo?</h2>
+            <form>
+                <input type="radio" value="França" name="resposta1" id="franca">
+                <label for="franca">França</label><br>
+
+                <input type="radio" value="Japão" name="resposta1" id="japao">
+                <label for="japao">Japão</label><br>
+
+                <input type="radio" value="Alemanha" name="resposta1" id="alemanha">
+                <label for="alemanha">Alemanha</label><br>
+                
+                <input type="radio" value="Brasil" name="resposta1" id="brasil">
+                <label for="brasil">Brasil</label><br>
+            </form>
+        </section>
+
+        <!-- Pergunta 2 -->
+        <section>
+            <h2>Quem fez o famoso "Gol de Mão" na Copa de 1986?</h2>
+            <form>
+                <input type="text" name="resposta2" id="resposta2" placeholder="Digite o nome do jogador">
+            </form>
+        </section>
+
+        <!-- Pergunta 3 -->
+        <section>
+            <h2>Qual é o clube com mais títulos da UEFA Champions League?</h2>
+            <form>
+                <input type="radio" value="Barcelona" name="resposta3" id="barcelona">
+                <label for="barcelona">Barcelona</label><br>
+
+                <input type="radio" value="Real Madrid" name="resposta3" id="realmadrid">
+                <label for="realmadrid">Real Madrid</label><br>
+
+                <input type="radio" value="Liverpool" name="resposta3" id="liverpool">
+                <label for="liverpool">Liverpool</label><br>
+
+                <input type="radio" value="Milan" name="resposta3" id="milan">
+                <label for="milan">Milan</label><br>
+            </form>
+        </section>
+
+        <!-- Pergunta 4 -->
+        <section>
+            <h2>Quais desses jogadores já foram eleitos "Melhor do Mundo" pela FIFA?</h2>
+            <form>
+                <input type="checkbox" value="neymar" name="neymar" id="neymar">
+                <label for="neymar">Neymar</label><br>
+
+                <input type="checkbox" value="cr7" name="cr7" id="cr7">
+                <label for="cr7">Cristiano Ronaldo</label><br>
+
+                <input type="checkbox" value="messi" name="messi" id="messi">
+                <label for="messi">Lionel Messi</label><br>
+
+                <input type="checkbox" value="mbappe" name="mbappe" id="mbappe">
+                <label for="mbappe">Kylian Mbappé</label><br>
+            </form>
+        </section>
+
+        <!-- Pergunta 5 -->
+        <section>
+            <h2>Quem é o melhor jogador de todos os tempos?</h2>
+            <form>
+                <select name="melhor" id="melhor-select">
+                    <option value="none">Selecione</option>
+                    <option value="Pelé">Pelé</option>
+                    <option value="Maradona">Maradona</option>
+                    <option value="Messi">Messi</option>
+                    <option value="Cristiano Ronaldo">Cristiano Ronaldo</option>
+                </select>
+            </form>
+        </section>
+
+        <!-- Informações extras -->
+        <section>
+            <details>
+                <summary>Curiosidades sobre Futebol</summary>
+                <p>Aqui estão alguns vídeos interessantes sobre o esporte:</p>
+                <nav>
+                    <ol>
+                        <li><a href="https://www.youtube.com/watch?v=2kAj0njdhzo" target="_blank">Melhores momentos do Corinthians</a></li>
+                        <li><a href="https://youtu.be/l7t6MWQ1d5E" target="_blank">Os maiores jogadores de todos os tempos</a></li>
+                        <li><a href="https://youtu.be/ZnVYt8uB3G4" target="_blank">Melhores gols da Champions League</a></li>
+                        <li><a href="https://youtu.be/L6n0Y8gSP7c" target="_blank">Curiosidades do futebol brasileiro</a></li>
+                    </ol>
+                </nav>
+            </details>
+        </section>
+    </main>
+    <audio id="audio-background" autoplay loop>
+        <source src="hino-do-corinthians.mp3" type="audio/mp3">
+      </audio>
+    <footer>
+        <p>&copy; 2025 Quiz do Futebol</p>
+    </footer>
+</body>
+</html>
